@@ -1,0 +1,19 @@
+{
+    "name": "encoderuz/uzpost",
+    "description": "Uzpost integration package for phpers",
+    "type": "package",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Encoderuz\\Uzpost\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "encoderuz",
+            "email": "abduqodirxojiyev@gmail.com"
+        }
+    ]
+}
