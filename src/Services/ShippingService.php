@@ -1,1 +1,0 @@
-<?php/** Abdukodir Khojiyev* Backend Developer* Project: uzpost* Date:  11/03/25*/namespace Encoderuz\Uzpost\Services;class ShippingService{}
