@@ -1,8 +1,9 @@
 {
-    "name": "encoderuz/uzpost",
-    "description": "Uzpost integration package for phpers",
-    "type": "package",
+    "name": "encoderuz/uzpost-php",
+    "description": "Uzpost integration package for php",
+    "type": "library",
     "require": {
+        "php": ">=8.0",
         "guzzlehttp/guzzle": "^7.9",
       "ext-json": "*"
     },
@@ -13,13 +14,15 @@
     },
     "authors": [
         {
-            "name": "encoderuz",
+            "name": "Abdukodir Khojiyev",
             "email": "abduqodirxojiyev@gmail.com"
         }
     ],
+    "license": "MIT",
     "require-dev": {
         "pestphp/pest": "^3.7"
     },
+    "minimum-stability": "stable",
     "config": {
         "allow-plugins": {
             "pestphp/pest-plugin": true
