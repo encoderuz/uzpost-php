@@ -1,0 +1,1 @@
+<?php/** Abdukodir Khojiyev* Backend Developer* Project: uzpost* Date:  11/03/25*/namespace Encoderuz\Uzpost\Attributes;#[\Attribute(\Attribute::TARGET_METHOD)]class Loggable{}

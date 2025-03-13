@@ -1,1 +1,1 @@
-<?php/** Abdukodir Khojiyev* Backend Developer* Project: shopify* Date:  11/03/25*/namespace Exceptions;class UzpostException{}
+<?php/** Abdukodir Khojiyev* Backend Developer* Project: shopify* Date:  11/03/25*/namespace Encoderuz\Uzpost\Exceptions;use Exception;class UzpostException extends Exception{    public function __construct(string $message, int $code = 0, ?Exception $previous = null)    {        parent::__construct($message, $code, $previous);    }}{}

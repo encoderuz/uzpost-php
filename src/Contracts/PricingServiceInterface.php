@@ -1,0 +1,1 @@
+<?php/** Abdukodir Khojiyev* Backend Developer* Project: uzpost* Date:  11/03/25*/namespace Encoderuz\Uzpost\Contracts;interface PricingServiceInterface{    public function get_package_prices(array $queryParams): array;}

@@ -1,0 +1,1 @@
+<?php/** Abdukodir Khojiyev* Backend Developer* Project: uzpost* Date:  11/03/25*/namespace Encoderuz\Uzpost\Contracts;interface CustomerServiceInterface{    public function sign_up(array $customerData): array;    public function authenticate(array $credentials): array;    public function get_customer_data(): array;}
